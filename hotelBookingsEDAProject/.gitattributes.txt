@@ -1,0 +1,14 @@
+# Ensure all text files use LF line endings
+* text=auto eol=lf
+
+# Explicitly enforce LF for Python and Jupyter notebooks
+*.py text eol=lf
+*.ipynb text eol=lf
+
+# Common config and data files
+*.csv text eol=lf
+*.tsv text eol=lf
+*.txt text eol=lf
+*.md  text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
